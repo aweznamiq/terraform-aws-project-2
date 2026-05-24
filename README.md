@@ -1,6 +1,23 @@
 # Terraform-Project-2-Multi-Tier-AWS-Architecture
 Rebuild the Project 2 AWS architecture using Terraform so the full stack is created as code.
+## Architecture Overview
 
+This project implements a production-style AWS multi-tier architecture using Terraform.
+
+Architecture Components:
+- Public Application Load Balancer
+- Public and Private Subnets
+- NAT Gateway
+- Private EC2 Application Server
+- Private RDS Database
+- Session Manager administration
+- Internet Gateway and Route Tables
+
+Security Design:
+- Only the ALB is publicly accessible
+- Backend EC2 and RDS remain private
+- Session Manager replaces public SSH access
+- 
 ## Step 1: Configure Terraform and Create VPC
 
 Configured:
