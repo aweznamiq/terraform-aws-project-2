@@ -1,0 +1,13 @@
+aws_region     = "us-east-1"
+project_name   = "prod"
+vpc_cidr       = "10.1.0.0/16"
+
+public_subnet_a_cidr  = "10.1.1.0/24"
+public_subnet_b_cidr  = "10.1.2.0/24"
+private_subnet_a_cidr = "10.1.10.0/24"
+private_subnet_b_cidr = "10.1.11.0/24"
+
+instance_type = "t2.micro"
+
+db_username = "adminuser"
+db_password = "ChangeMe12345!"
